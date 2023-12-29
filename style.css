@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* body */
+body {
+    background-color: rgb(0, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* start button */
+.startBtn {
+    width: 80px;
+   margin-top: 300px;
+   margin: 300px auto;
+}
+.start{
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.932);
+    cursor: pointer;
+}
+/* start when active */
+.start:active {
+    opacity: 0.5;
+  }
+/* button */
+button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Quiz Box */
+.containerDiv {
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.733);
+    max-width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 200px auto;
+}
+/* questionDiv */
+.questionDiv {
+  padding-top: 40px;
+}
+.question {
+    margin-bottom: 30px;
+    color: rgb(3, 5, 107);
+}
+/* btnDiv */
+.btnDiv {
+    margin-top: 50px;
+}
+/* previous */
+.previous {
+    float: left;
+    font-size: 15px;
+  width: 100px;
+  height: 50px;
+  margin: 125px 0px 0px 148px;
+    background-color: rgba(0, 0, 255, 0.932);
+}
+/* next */
+.next {
+    float: right;
+    font-size: 15px;
+    width: 100px;
+  height: 50px;
+  margin: 125px 148px 0px 0px;
+    background-color: rgba(0, 0, 255, 0.932);
+}
+/* above two when active */
+.previous:active, .next:active {
+  background-color:  rgba(31, 31, 77, 0.932);
+} 
+/* displayDiv */
+.displayDiv {
+    position: absolute;
+    margin-left: 100px;
+}
+/* right */
+.right {
+    background-color: green;
+    width: 270px;
+    height:50px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    cursor: default;
+}
+/* wrong */
+.wrong {
+    background-color: red;
+    width: 270px;
+    height:50px;
+    font-size: 15px;
+    cursor: default;
+}
+/* optionBtn in JavaScript */
+.optionBtn {
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    background-color: rgb(200, 255, 0);
+}
+/* option when active */
+.optionBtn:active {
+    opacity: 0.5;
+}
+/* hidden */
+.hidden {
+    display: none;
+}
